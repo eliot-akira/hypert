@@ -1,7 +1,7 @@
 {
   "name": "hypert",
   "version": "0.0.1",
-  "description": "",
+  "description": "Hypertext transpiler",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently --raw --names babel,test,type \"babel src --verbose --out-dir build --extensions \".js,.ts\" --watch\" \"sleep 2 && nodemon --delay 1 --watch build build/test\" \"tsc --incremental --preserveWatchOutput --noEmit --watch\"",
@@ -27,6 +27,6 @@
   "author": "Eliot Akira",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eliot-akira/babel-ts-template.git"
+    "url": "git+https://github.com/eliot-akira/hypert.git"
   }
 }
